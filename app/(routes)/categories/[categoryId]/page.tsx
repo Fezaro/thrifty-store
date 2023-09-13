@@ -6,6 +6,7 @@ const CategoryListingPage =async (
     {params}
     : { params: { categoryId: string }}
     ) => {
+      console.log(params.categoryId);
     const categoryListings = await getListingsByCategory(params.categoryId);
     return (
         <Container>
