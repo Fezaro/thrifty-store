@@ -73,7 +73,7 @@ const Info: React.FC<InfoProps> = ({ data }) => {
                     </div>
                 </div>
                 <div className="flex items-center gap-x-4">
-                    <h3 className="font-semibold text-black">Duration:</h3>
+                    <h3 className="font-semibold text-black">Duration Used:</h3>
                     <div>
                         {data?.durationUsed}
                     </div>
